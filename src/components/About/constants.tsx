@@ -28,14 +28,6 @@ const StyledCardLogo = styled.img`
 
 export const MORE_CARDS = [
   {
-    to: '/whatishorswap',
-    title: 'Horswap?',
-    description: 'Read more about this censorship resistant and privacy protecting Uniswap Interface.',
-    lightIcon: <StyledCardLogo src={hors} alt="What is Horswap?" />,
-    darkIcon: <StyledCardLogo src={hors} alt="What is Horswap?" />,
-    cta: 'Read more',
-  },
-  {
     to: '/pools',
     title: 'Earn',
     description: 'Provide liquidity to pools on Uniswap and earn fees on swaps.',

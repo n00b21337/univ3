@@ -51,3 +51,13 @@ You can see all the changes by [comparing Horseswap to Uniswap Interface V4.266.
 # Notes
 Removing or adding networks and what is needed
 https://github.com/DarkFlorist/Horswap/pull/95
+
+Remove or add chains to switcher
+/home/marko/Experiments/univ3/src/constants/chains.ts
+
+Token safety lookup path
+/home/marko/Experiments/univ3/src/constants/tokenSafetyLookup.ts
+
+Token lists
+/home/marko/Experiments/univ3/src/constants/lists.ts
+https://github.com/Uniswap/token-lists#authoring-token-lists

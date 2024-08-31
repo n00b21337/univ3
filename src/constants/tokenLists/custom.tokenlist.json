@@ -1,0 +1,22 @@
+{
+  "name": "Swarm Custom list",
+  "logoURI": "https://s2.coinmarketcap.com/static/img/coins/200x200/10293.png",
+  "keywords": [
+    "swarm"
+  ],
+  "timestamp": "2024-08-26T16:00:56.289+00:00",
+  "tokens": [
+    {
+      "chainId": 11155111,
+      "address": "0x543dDb01Ba47acB11de34891cD86B675F04840db",
+      "name": "Sepolia BZZ",
+      "symbol": "sBZZ",
+      "decimals": 16,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/200x200/10293.png"
+    }
+  ],
+  "version": {
+    "minor": null,
+    "patch": 0
+  }
+}
