@@ -35,7 +35,6 @@ export function asSupportedChain(chainId: number | null | undefined | ChainId): 
 export const SUPPORTED_GAS_ESTIMATE_CHAIN_IDS = [
   ChainId.MAINNET,
   ChainId.POLYGON,
-  ChainId.CELO,
   ChainId.OPTIMISM,
   ChainId.ARBITRUM_ONE,
   ChainId.BNB,
@@ -49,25 +48,18 @@ export const SUPPORTED_GAS_ESTIMATE_CHAIN_IDS = [
 export const SUPPORTED_V2POOL_CHAIN_IDS = [ChainId.MAINNET, ChainId.GOERLI] as const
 
 export const TESTNET_CHAIN_IDS = [
-  ChainId.GOERLI,
   ChainId.SEPOLIA,
   ChainId.POLYGON_MUMBAI,
   ChainId.ARBITRUM_GOERLI,
   ChainId.OPTIMISM_GOERLI,
-  ChainId.CELO_ALFAJORES,
 ] as const
 
 /**
  * All the chain IDs that are running the Ethereum protocol.
  */
 export const L1_CHAIN_IDS = [
-  ChainId.MAINNET,
-  ChainId.GOERLI,
   ChainId.SEPOLIA,
   ChainId.POLYGON,
-  ChainId.POLYGON_MUMBAI,
-  ChainId.CELO,
-  ChainId.CELO_ALFAJORES,
   ChainId.BNB,
   ChainId.AVALANCHE,
 ] as const
