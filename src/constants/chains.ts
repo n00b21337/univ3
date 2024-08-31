@@ -58,6 +58,7 @@ export const TESTNET_CHAIN_IDS = [
  * All the chain IDs that are running the Ethereum protocol.
  */
 export const L1_CHAIN_IDS = [
+  ChainId.MAINNET,
   ChainId.SEPOLIA,
   ChainId.POLYGON,
   ChainId.BNB,
