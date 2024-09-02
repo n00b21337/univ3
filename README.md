@@ -61,3 +61,6 @@ Token safety lookup path
 Token lists
 /home/marko/Experiments/univ3/src/constants/lists.ts
 https://github.com/Uniswap/token-lists#authoring-token-lists
+
+Where to change colors of site
+https://github.com/Uniswap/interface/commit/80088e30a2a5f780805804c74d7555164c825f78

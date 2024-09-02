@@ -4,7 +4,7 @@ import Web3Status from 'components/Web3Status'
 import { useIsPoolsPage } from 'hooks/useIsPoolsPage'
 import { Box } from 'nft/components/Box'
 import { Row } from 'nft/components/Flex'
-import { HorIcon } from 'nft/components/icons'
+import { SwarmIcon } from 'nft/components/icons'
 import { ReactNode, useCallback } from 'react'
 import { NavLink, NavLinkProps, useLocation, useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
@@ -87,10 +87,10 @@ const Navbar = ({ blur }: { blur: boolean }) => {
         <Box display="flex" height="full" flexWrap="nowrap">
           <Box className={styles.leftSideContainer}>
             <Box className={styles.logoContainer}>
-              <HorIcon
+              <SwarmIcon
                 width="48"
                 height="48"
-                data-testid="horswap-logo"
+                data-testid="swarmnswap-logo"
                 className={styles.logo}
                 onClick={handleHorIconClick}
               />
