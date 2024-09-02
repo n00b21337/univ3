@@ -17,6 +17,22 @@ export const SEPOLIA_BZZ = new Token(
   'Sepolia BZZ'
 )
 
+export const MAINNET_BZZ = new Token(
+  ChainId.MAINNET,
+  '0x19062190b1925b5b6689d7073fdfc8c2976ef8cb',
+  16,
+  'BZZ',
+  'BZZ'
+)
+
+export const GNOSIS_BZZ = new Token(
+  ChainId.GNOSIS,
+  '0xdbf3ea6f5bee45c02255b2c26a16f300502f68da',
+  16,
+  'xBZZ',
+  'xBZZ'
+)
+
 export const USDC_MAINNET = new Token(
   ChainId.MAINNET,
   '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
