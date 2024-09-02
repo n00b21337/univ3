@@ -67,3 +67,4 @@ https://github.com/Uniswap/interface/commit/80088e30a2a5f780805804c74d7555164c82
 
 Add default tokens shown in swap (check a2c1aa7a2042e26aaaa4bfb497d15294ede272bf commit)
 /home/marko/Experiments/univ3/src/constants/tokens.ts
+/home/marko/Experiments/univ3/src/constants/routing.ts
