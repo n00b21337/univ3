@@ -4,13 +4,11 @@ import store from "../state";
 import { UNI_EXTENDED_LIST, UNI_LIST } from "./lists";
 import { COMMON_BASES } from "./routing";
 import brokenTokenList from "./tokenLists/broken.tokenlist.json";
-import customTokenList from "./tokenLists/custom.tokenlist.json";
 import { NATIVE_CHAIN_ID } from "./tokens";
 
 export enum TOKEN_LIST_TYPES {
   UNI_DEFAULT = 1,
   UNI_EXTENDED,
-  CUSTOM_LIST,
   UNKNOWN,
   BROKEN,
 }
@@ -22,11 +20,6 @@ class TokenSafetyLookupTable {
   // TODO(WEB-2488): Index lookups by chainId
   update(lists: ListsState) {
     this.initialized = true;
-
-    // Custom tokens
-    customTokenList.tokens.forEach((token) => {
-      this.dict[token.address.toLowerCase()] = TOKEN_LIST_TYPES.UNI_DEFAULT;
-    });
 
     // Initialize extended tokens first
     lists.byUrl[UNI_EXTENDED_LIST]?.current?.tokens.forEach((token) => {
