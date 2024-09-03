@@ -38,12 +38,12 @@ export function asSupportedChain(chainId: number | null | undefined | ChainId): 
 
 export const SUPPORTED_GAS_ESTIMATE_CHAIN_IDS = [
   ChainId.MAINNET,
-  ChainId.POLYGON,
-  ChainId.OPTIMISM,
-  ChainId.ARBITRUM_ONE,
-  ChainId.BNB,
-  ChainId.AVALANCHE,
-  ChainId.BASE,
+  // ChainId.POLYGON,
+  // ChainId.OPTIMISM,
+  // ChainId.ARBITRUM_ONE,
+  // ChainId.BNB,
+  // ChainId.AVALANCHE,
+  // ChainId.BASE,
   ChainId.GNOSIS,
 ] as const
 
@@ -54,9 +54,9 @@ export const SUPPORTED_V2POOL_CHAIN_IDS = [ChainId.MAINNET, ChainId.GOERLI] as c
 
 export const TESTNET_CHAIN_IDS = [
   ChainId.SEPOLIA,
-  ChainId.POLYGON_MUMBAI,
-  ChainId.ARBITRUM_GOERLI,
-  ChainId.OPTIMISM_GOERLI,
+  // ChainId.POLYGON_MUMBAI,
+  // ChainId.ARBITRUM_GOERLI,
+  // ChainId.OPTIMISM_GOERLI,
 ] as const
 
 /**
@@ -65,9 +65,9 @@ export const TESTNET_CHAIN_IDS = [
 export const L1_CHAIN_IDS = [
   ChainId.MAINNET,
   ChainId.SEPOLIA,
-  ChainId.POLYGON,
-  ChainId.BNB,
-  ChainId.AVALANCHE,
+  // ChainId.POLYGON,
+  // ChainId.BNB,
+  // ChainId.AVALANCHE,
   ChainId.GNOSIS,
 ] as const
 
@@ -78,11 +78,11 @@ export type SupportedL1ChainId = (typeof L1_CHAIN_IDS)[number]
  * The expectation is that all of these networks have immediate transaction confirmation.
  */
 export const L2_CHAIN_IDS = [
-  ChainId.ARBITRUM_ONE,
-  ChainId.ARBITRUM_GOERLI,
-  ChainId.OPTIMISM,
-  ChainId.OPTIMISM_GOERLI,
-  ChainId.BASE,
+  // ChainId.ARBITRUM_ONE,
+  // ChainId.ARBITRUM_GOERLI,
+  // ChainId.OPTIMISM,
+  // ChainId.OPTIMISM_GOERLI,
+  // ChainId.BASE,
 ] as const
 
 export type SupportedL2ChainId = (typeof L2_CHAIN_IDS)[number]
