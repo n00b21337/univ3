@@ -30,7 +30,7 @@ export const GNOSIS_BZZ = new Token(
   '0xdbf3ea6f5bee45c02255b2c26a16f300502f68da',
   16,
   'xBZZ',
-  'xBZZ'
+  'Gnosis BZZ'
 )
 
 export const USDC_MAINNET = new Token(

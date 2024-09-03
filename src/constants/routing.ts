@@ -123,6 +123,9 @@ export const COMMON_BASES: ChainCurrencyList = {
     USDT_AVALANCHE,
     WETH_AVALANCHE,
   ],
+
+  [ChainId.GNOSIS]: [nativeOnChain(ChainId.GNOSIS), GNOSIS_BZZ],
+
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
@@ -151,6 +154,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
     USDT_GNOSIS,
     WETH_GNOSIS,
     WBTC_GNOSIS,
+    GNOSIS_BZZ,
   ],
 }
 export const PINNED_PAIRS: { readonly [chainId: number]: [Token, Token][] } = {
