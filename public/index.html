@@ -25,13 +25,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="theme-color" content="#fff" />
     <meta
-      http-equiv="Content-Security-Policy"
-      <% if (process.env.REACT_APP_CSP_ALLOW_UNSAFE_EVAL) { %>
-        content="script-src 'self' 'unsafe-inline' 'unsafe-eval'"
-      <% } else { %>
-        content="script-src 'self' 'unsafe-inline'"
-      <% } %>
-    />
+    http-equiv="Content-Security-Policy"
+    content="
+      default-src 'self';
+      connect-src 'self' https://gateway.ipfs.io https://*.coingecko.com https://raw.githubusercontent.com https://*.gemini.com https://*.optimism.io https://*.arbitrum.io https://*.celo-org.github.io https://*.ava-labs.org;
+      script-src 'self' 'unsafe-inline' 'unsafe-eval';
+      img-src 'self' data: blob:;
+      style-src 'self' 'unsafe-inline';
+    "
+  />
+  
 
     <!--
       manifest.json provides metadata used when the app is installed as a PWA.
