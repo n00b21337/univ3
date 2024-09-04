@@ -92,13 +92,13 @@ const LogoSectionContent = () => {
   return (
     <>
       <SocialLinks>
-        <SocialLink href="https://discord.com/invite/aCSKcvf5VW" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://discord.ethswarm.org/" target="_blank" rel="noopener noreferrer">
           <DiscordIcon size={32} />
         </SocialLink>
-        <SocialLink href="https://twitter.com/DarkFlorist" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://x.com/ethswarm" target="_blank" rel="noopener noreferrer">
           <TwitterIcon size={32} />
         </SocialLink>
-        <SocialLink href="https://github.com/DarkFlorist/Horswap" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://github.com/ethersphere" target="_blank" rel="noopener noreferrer">
           <GithubIcon size={32} />
         </SocialLink>
       </SocialLinks>
@@ -120,17 +120,17 @@ export const AboutFooter = () => {
           <TextLink to="/pools">Pools</TextLink>
         </LinkGroup>
         <LinkGroup>
-          <LinkGroupTitle>Protocol</LinkGroupTitle>
-          <ExternalTextLink href="https://uniswap.org/community">Community</ExternalTextLink>
-          <ExternalTextLink href="https://uniswap.org/governance">Governance</ExternalTextLink>
-          <ExternalTextLink href="https://uniswap.org/developers">Developers</ExternalTextLink>
+          <LinkGroupTitle>Swarm Protocol</LinkGroupTitle>
+          <ExternalTextLink href="https://www.ethswarm.org/build">Build</ExternalTextLink>
+          <ExternalTextLink href="https://www.ethswarm.org/why">Tech</ExternalTextLink>
+          <ExternalTextLink href="https://www.ethswarm.org/grants">Ecosystem</ExternalTextLink>
         </LinkGroup>
         <LinkGroup>
           <LinkGroupTitle>Get Help</LinkGroupTitle>
-          <ExternalTextLink href="https://discord.com/invite/aCSKcvf5VW" target="_blank" rel="noopener noreferrer">
+          <ExternalTextLink href="https://discord.ethswarm.org/" target="_blank" rel="noopener noreferrer">
             Contact Us On Discord
           </ExternalTextLink>
-          <ExternalTextLink href="https://support.uniswap.org/hc/en-us">Help Center</ExternalTextLink>
+          <ExternalTextLink href="https://swarmscan.io/">Network Stats</ExternalTextLink>
         </LinkGroup>
       </FooterLinks>
 

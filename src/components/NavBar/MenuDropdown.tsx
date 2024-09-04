@@ -127,21 +127,21 @@ export const MenuDropdown = () => {
                 alignItems={{ sm: 'center', md: 'flex-start' }}
                 paddingX="8"
               >
-                <SecondaryLinkedText href="https://help.uniswap.org/en/">
-                  <Trans>Help center</Trans> ↗
+                <SecondaryLinkedText href="https://www.ethswarm.org/">
+                  <Trans>Swarm</Trans> ↗
                 </SecondaryLinkedText>
-                <SecondaryLinkedText href="https://docs.uniswap.org/">
+                <SecondaryLinkedText href="https://docs.ethswarm.org/docs">
                   <Trans>Documentation</Trans> ↗
                 </SecondaryLinkedText>
               </Box>
               <IconRow>
-                <Icon href="https://discord.com/invite/aCSKcvf5VW">
+                <Icon href="https://discord.ethswarm.org/">
                   <DiscordIconMenu className={styles.hover} width={24} height={24} color={themeVars.colors.neutral2} />
                 </Icon>
-                <Icon href="https://twitter.com/DarkFlorist">
+                <Icon href="https://x.com/ethswarm">
                   <TwitterIconMenu className={styles.hover} width={24} height={24} color={themeVars.colors.neutral2} />
                 </Icon>
-                <Icon href="https://github.com/DarkFlorist/Horswap">
+                <Icon href="https://github.com/ethersphere">
                   <GithubIconMenu className={styles.hover} width={24} height={24} color={themeVars.colors.neutral2} />
                 </Icon>
               </IconRow>
